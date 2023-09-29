@@ -1,3 +1,9 @@
+// This component recieves its data from the index.js component through its functions' arguments.
+// It then uses the data to create a header displaying the name of the feature (Articles).
+// It also creates two inputs; an input for a new articles' name, and another for its summary.
+// It finally provides a button to add the new article to the articles list.
+// the inputs and button elements call their value functions upon event trigger.
+
 import React from "react";
 
 export default function AddArticle({

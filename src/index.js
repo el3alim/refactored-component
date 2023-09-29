@@ -1,3 +1,4 @@
+// View the README.md file for project details
 import React from "react";
 import ReactDOM from "react-dom/client";
 import ArticleList from "./ArticleList";
@@ -7,7 +8,8 @@ import MyFeature from "./MyFeature";
 // Assigning the root element to a constant
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-// Rendering
+// The MyFeature component renders two prop functions, addArticle() and articleList().
+// These functions are passed to other components and used to retrieve and pass data.
 root.render(
   <MyFeature
     addArticle={({

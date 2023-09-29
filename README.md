@@ -154,3 +154,5 @@ This would help achieve the following:
 - Avoiding the complexities of the "this" keyword mostly used with class components.
 - Avoiding having to use bind() repeatedly.
 - Following the trend of increasing the use of functional components vs class components.
+
+Studied and implemented from React-and-React-Native-4th-Edition.
